@@ -1,0 +1,33 @@
+{
+  "name": "three-js-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build:watch": "nodemon --exec \"npx webpack --config webpack.config.js\" --ignore dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-learnthreejs:learnthreejs/three-js-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@seregpie/three.text-texture": "^2.0.1",
+    "aframe-physics-system": "^4.0.1",
+    "aframe-text-texture-component": "0.0.3",
+    "express": "^4.15.3",
+    "jszip": "^3.2.2",
+    "search-query-parser": "^1.5.4",
+    "three": "^0.113.2"
+  },
+  "devDependencies": {
+    "aframe": "^1.0.4",
+    "aframe-gamepad-controls": "^0.6.0",
+    "aframe-random-tree": "^1.0.0",
+    "nodemon": "^2.0.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
