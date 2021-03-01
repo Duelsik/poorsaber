@@ -20,7 +20,7 @@
     "express": "^4.15.3",
     "jszip": "^3.2.2",
     "search-query-parser": "^1.5.4",
-    "three": "^0.113.2"
+    "three": "^0.125.0"
   },
   "devDependencies": {
     "aframe": "^1.0.4",
